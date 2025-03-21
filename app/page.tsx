@@ -36,7 +36,7 @@ export default function Page() {
       <section className="section" id="Profile">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/profile.png"/>
+            <img width={60} src="/image/profile.png"/>
             <span>PROFILE</span>
           </h1>
           <p>
@@ -106,7 +106,7 @@ export default function Page() {
       <section className="section" id="Research">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/research.png"/>
+            <img width={60} src="/image/research.png"/>
             <span>RESEARCH EXPERIENCE</span>
           </h1>
           <div className="research-item">
@@ -160,7 +160,7 @@ export default function Page() {
       <section className="section" id="Publications">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/publication.png"/>
+            <img width={60} src="/image/publication.png"/>
             <span>PUBLICATIONS & PRESENTATIONS</span>
           </h1>
           <ul className="publication-list">
@@ -187,7 +187,7 @@ export default function Page() {
       <section className="section" id="Awards">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/award.png"/>
+            <img width={60} src="/image/award.png"/>
             <span>AWARDS & SCHOLARSHIPS</span>
           </h1>
           <div className="award-item">
@@ -212,7 +212,7 @@ export default function Page() {
       <section className="section" id="Projects">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/project.png"/>
+            <img width={60} src="/image/project.png"/>
             <span>CURRENT PROJECTS</span>
           </h1>
           <div className="project-item">
