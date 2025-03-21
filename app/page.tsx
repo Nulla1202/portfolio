@@ -58,7 +58,7 @@ export default function Page() {
       <section className="section" id="Skill">
         <div className="inner">
           <h1>
-            <img width={60} src="./src/image/program.png"/>
+            <img width={60} src="/image/program.png"/>
             <span>SKILL</span>
           </h1>
           <p>
