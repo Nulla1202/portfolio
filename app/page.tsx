@@ -36,7 +36,7 @@ export default function Page() {
       <section className="section" id="Profile">
         <div className="inner">
           <h1>
-            <img width={60} src="image/profile.png"/>
+            <img width={60} src="./src/image/profile.png"/>
             <span>PROFILE</span>
           </h1>
           <p>
@@ -58,7 +58,7 @@ export default function Page() {
       <section className="section" id="Skill">
         <div className="inner">
           <h1>
-            <img width={60} src="image/program.png"/>
+            <img width={60} src="./src/image/program.png"/>
             <span>SKILL</span>
           </h1>
           <p>
@@ -81,7 +81,7 @@ export default function Page() {
           label="Machine Learning" 
           labels={["PyTorch", "Neural Networks", "Deep Learning", "Vision Transformers", "Feature Extraction"]} 
           star={[4, 5, 4, 3, 5]} 
-          detail="脳波データからの特徴抽出、畳み込みリカレントニューラルネットワーク、ビジョントランスフォーマーなど先端的な手法を研究に応用しています。"
+          detail="脳波データからの特徴抽出、Convolutional RNN、Vision Transformerなど先端的な手法を研究に応用しています。"
         ></Card>
         <Card
           label="Neuroscience"
@@ -106,7 +106,7 @@ export default function Page() {
       <section className="section" id="Research">
         <div className="inner">
           <h1>
-            <img width={60} src="image/research.png"/>
+            <img width={60} src="./src/image/research.png"/>
             <span>RESEARCH EXPERIENCE</span>
           </h1>
           <div className="research-item">
@@ -160,7 +160,7 @@ export default function Page() {
       <section className="section" id="Publications">
         <div className="inner">
           <h1>
-            <img width={60} src="image/publication.png"/>
+            <img width={60} src="./src/image/publication.png"/>
             <span>PUBLICATIONS & PRESENTATIONS</span>
           </h1>
           <ul className="publication-list">
@@ -187,7 +187,7 @@ export default function Page() {
       <section className="section" id="Awards">
         <div className="inner">
           <h1>
-            <img width={60} src="image/award.png"/>
+            <img width={60} src="./src/image/award.png"/>
             <span>AWARDS & SCHOLARSHIPS</span>
           </h1>
           <div className="award-item">
@@ -212,7 +212,7 @@ export default function Page() {
       <section className="section" id="Projects">
         <div className="inner">
           <h1>
-            <img width={60} src="image/project.png"/>
+            <img width={60} src="./src/image/project.png"/>
             <span>CURRENT PROJECTS</span>
           </h1>
           <div className="project-item">
@@ -227,7 +227,7 @@ export default function Page() {
 
       <footer>
         <div className="contact">
-          <p>Email: daistar1202@gmail.com | Tel: +81(80)1442 2494</p>
+          <p>Email: daistar1202@gmail.com | Tel: +81(80)1985 5306</p>
           <p>Website: <a href="https://daistar12020.wixsite.com/mysite" target="_blank">https://daistar12020.wixsite.com/mysite</a></p>
         </div>
         <div className="copyRight">@DAI SHIMIZU. All Rights Reserved.</div>
